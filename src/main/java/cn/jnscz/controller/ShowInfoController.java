@@ -1,8 +1,8 @@
 package cn.jnscz.controller;
 
 import cn.jnscz.domain.User;
-import cn.jnscz.service.RegisterUserServicelmp;
 import cn.jnscz.service.ShowUserInfoServiceImp;
+import cn.jnscz.service.RegisterUserServicelmp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
