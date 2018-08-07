@@ -8,11 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>注册成功</title>
+    <script>
+        alert("注册成功");
+        history.back();
+    </script>
 </head>
 <body>
 <h1>
-    success!!!!!!!!!!!!!
+
 </h1>
 </body>
 </html>

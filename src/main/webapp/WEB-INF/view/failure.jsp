@@ -12,7 +12,7 @@
     <script>
         window.onload = function () {
             alert("${msg}");
-           // history.back();
+//            history.back();
 
         }
     </script>

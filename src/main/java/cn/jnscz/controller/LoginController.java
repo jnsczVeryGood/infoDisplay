@@ -17,7 +17,8 @@ public class LoginController {
     public String displayUserInfo(@RequestParam("username") String username, @RequestParam("password") String password, ModelMap model) {
         try {
             if (loginServiceImp.login(username, password)) {
-                return "userInfo";
+                model.addAttribute("username",username);
+                return "redirect:/userInfo";
             }
 
         } catch (Exception e) {

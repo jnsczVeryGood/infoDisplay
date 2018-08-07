@@ -1,0 +1,10 @@
+jdbc.driver=com.mysql.jdbc.Driver
+<<<<<<< HEAD
+jdbc.url=jdbc:mysql://127.0.0.1:3306/db_jnscz
+jdbc.username=root
+jdbc.password=123456
+=======
+jdbc.url=jdbc:mysql://127.0.0.1:3306/db_jnscz?userUnicode=true&characterEncoding=utf8
+jdbc.username=root
+jdbc.password=1234
+>>>>>>> jnscz/master
