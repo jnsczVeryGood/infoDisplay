@@ -7,4 +7,5 @@ import cn.jnscz.domain.User;
 public interface UserMapper {
 	public User selectUserById(String username) throws Exception;
 	public String selectPasswordById(String username)throws Exception;
+	public boolean insertUser(User user) throws Exception;
 }

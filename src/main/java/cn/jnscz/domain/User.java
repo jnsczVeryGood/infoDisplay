@@ -23,6 +23,21 @@ public class User {
 		this.username = username;
 	}
 
+	@Override
+	public String toString() {
+		return "User{" +
+				"username='" + username + '\'' +
+				", password='" + password + '\'' +
+				", account=" + account +
+				", age=" + age +
+				", name='" + name + '\'' +
+				", sex='" + sex + '\'' +
+				", phone='" + phone + '\'' +
+				", info='" + info + '\'' +
+				'}';
+	}
+
+
 	private String username;
 	private String password;
 	private Double account;

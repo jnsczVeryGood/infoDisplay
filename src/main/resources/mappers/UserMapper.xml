@@ -17,4 +17,8 @@
 	<select id="selectPasswordById" parameterType="java.lang.String" resultType="java.lang.String">
 			select password from user where username=#{username}
 	</select>
+	<insert id="insertUser" parameterType="cn.jnscz.domain.User">
+		INSERT INTO user VALUES(#{username},#{password},
+		#{account},#{age},#{name},#{sex},#{phone},#{info})
+	</insert>
 </mapper>
